@@ -5,6 +5,13 @@
     background-color: #4b4747;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
 h1{
     text-align: center;
     color: white;
@@ -15,14 +22,14 @@ p{
     text-align: center;
     color: white;
     font-size: .8em;
-    margin-top: 3em;
 }
 .container{
     display: flex;
-    height: 85vh;
+    height: 79vh;
     flex-direction: column;
     flex-wrap: wrap;
     flex: 0 0 auto;
+    align-content: center;
     justify-content: center;
     align-items: center;
 }
@@ -48,4 +55,18 @@ p{
     height: 40px;
     background-color: white;
     border: 1px solid rgb(176, 181, 186);
+}
+.changeSizeBtn{
+    width: 120px;
+    height: 50px;
+    color: white;
+    font-weight: 600;
+    background-color: silver;
+    border: 1px solid #D3D3D3;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+}
+.changeSizeBtn:active{
+    background-color: #71797E
 }
